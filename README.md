@@ -38,7 +38,7 @@ A minimal secure boilerplate for writing Web Applications using [React](https://
 Clone the repository :
 
 ```bash
-git clone https://github.com/codesbiome/react-webpack-typescript-2022
+git clone https://github.com/codesbiome/react-webpack-typescript-2023
 ```
 
 <br>
@@ -106,10 +106,10 @@ To make it easier for managing environment based webpack configurations, we usin
 
 ```bash
 # Development webpack config
-tools/webpack/webpack.config.dev.js
+tools/webpack/webpack.config.dev.ts
 
 # Production webpack config
-tools/webpack/webpack.config.prod.js
+tools/webpack/webpack.config.prod.ts
 ```
 
 For further information, you can visit [Webpack Configuration](https://webpack.js.org/configuration/)

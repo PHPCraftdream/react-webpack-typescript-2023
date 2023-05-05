@@ -1,4 +1,9 @@
 {
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  },
   "compilerOptions": {
     "jsx": "react",
     "allowJs": true,
@@ -16,7 +21,7 @@
       "*": ["node_modules/*"],
       "@assets/*": ["./assets/*"],
       "@src/*": ["./src/*"]
-    }
+    },
   },
-  "include": ["src/**/*", "tools/**/*"]
+  "include": ["src/**/*", "tools/**/*", "webpack.config.ts", "typings.d.ts"]
 }

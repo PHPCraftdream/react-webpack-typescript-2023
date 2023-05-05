@@ -87,3 +87,6 @@ typings/
 
 # Distributions
 dist/
+
+# IDE
+/.idea/
